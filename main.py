@@ -10,18 +10,23 @@ if binario == []:
     print('Número binário informado inválido')
 
     exit()
+'''
 if len(binario) > 8:
     print('O número passado tem mais de 8 dígitos')
 
     exit()
+'''
 
-bases = [128, 64, 32, 16, 8, 4, 2, 1]
+bases = [1, 2]
+
+for x in range(len(binario)-2):
+    bases.append(bases[x+1] * 2)
+
+bases.sort(reverse=True)
 
 dec = 0
-
 for i, b in enumerate(binario):
-    b = int(b)
-    if b == 1:
+    if b == '1':
         dec += bases[i]
 
 print(f'O número equivalente em base 10 é: {dec}')
