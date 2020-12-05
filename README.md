@@ -31,9 +31,6 @@ restrições:
 ## Links e recursos úteis
 
 - [Sistema de número binário] (https://en.wikipedia.org/wiki/Binary_number)
-- [Formulários HTML] (https://www.w3schools.com/html/html_forms.asp)
-- [CSS Design Inspiration] (https://www.youtube.com/watch?v=HV7DtH3J2PU)
-- [Comando Bash 'bc'] (http://www.basicallytech.com/blog/archive/23/command-line-calculations-using-bc/#bin_dec)
 
 ## Projetos de exemplo
 
